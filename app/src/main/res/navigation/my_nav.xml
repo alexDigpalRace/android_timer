@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_profileFragment_to_addProfileFragment"
             app:destination="@id/addProfileFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_updateProfileFragment"
+            app:destination="@id/updateProfileFragment" />
     </fragment>
     <fragment
         android:id="@+id/addProfileFragment"
@@ -22,5 +25,16 @@
         <action
             android:id="@+id/action_addProfileFragment_to_profileFragment"
             app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateProfileFragment"
+        android:name="com.example.timerapp.fragments.UpdateProfileFragment"
+        android:label="UpdateProfileFragment" >
+        <action
+            android:id="@+id/action_updateProfileFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <argument
+            android:name="currentProfile"
+            app:argType="com.example.timerapp.database.Profile" />
     </fragment>
 </navigation>

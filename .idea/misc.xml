@@ -6,6 +6,9 @@
         <entry key="..\:/Users/alex_/Documents/projects/software/timer/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/alex_/Documents/projects/software/timer/app/src/main/res/layout/fragment_add_profile.xml" value="0.33" />
         <entry key="..\:/Users/alex_/Documents/projects/software/timer/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/Users/alex_/Documents/projects/software/timer/app/src/main/res/layout/fragment_update_profile.xml" value="0.33" />
+        <entry key="..\:/Users/alex_/Documents/projects/software/timer/app/src/main/res/layout/profile_custom_row.xml" value="0.33" />
+        <entry key="..\:/Users/alex_/Documents/projects/software/timer/app/src/main/res/menu/delete_menu.xml" value="0.275" />
       </map>
     </option>
   </component>
