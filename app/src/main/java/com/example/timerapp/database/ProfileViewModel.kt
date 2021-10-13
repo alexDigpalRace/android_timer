@@ -7,7 +7,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
 
-class ProfileViewModel(application: Application) : AndroidViewModel {
+class ProfileViewModel(application: Application) : AndroidViewModel(application) {
     private val readAllProfiles: Flow<List<Profile>>
     private val repository: ProfileRepository
 
