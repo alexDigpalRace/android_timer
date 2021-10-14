@@ -1,4 +1,4 @@
-package com.example.timerapp.database
+package com.example.timerapp.model
 
 import android.os.Parcelable
 import androidx.room.Entity

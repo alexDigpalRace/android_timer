@@ -1,6 +1,8 @@
-package com.example.timerapp.database
+package com.example.timerapp.repos
 
 import androidx.lifecycle.LiveData
+import com.example.timerapp.dao.ProfileDao
+import com.example.timerapp.model.Profile
 
 class ProfileRepository (private val profileDao: ProfileDao) {
     val readAllProfiles: LiveData<List<Profile>> = profileDao.getProfiles()

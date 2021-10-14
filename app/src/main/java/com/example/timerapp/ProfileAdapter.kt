@@ -5,7 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.timerapp.database.Profile
+import com.example.timerapp.model.Profile
 import com.example.timerapp.fragments.ProfileFragmentDirections
 import kotlinx.android.synthetic.main.profile_custom_row.view.*
 

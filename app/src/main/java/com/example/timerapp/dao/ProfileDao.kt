@@ -1,8 +1,8 @@
-package com.example.timerapp.database
+package com.example.timerapp.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import kotlinx.coroutines.flow.Flow
+import com.example.timerapp.model.Profile
 
 @Dao
 interface ProfileDao {

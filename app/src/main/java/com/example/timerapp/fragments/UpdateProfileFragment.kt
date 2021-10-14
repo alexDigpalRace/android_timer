@@ -11,8 +11,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.timerapp.R
-import com.example.timerapp.database.Profile
-import com.example.timerapp.database.ProfileViewModel
+import com.example.timerapp.model.Profile
+import com.example.timerapp.viewModel.ProfileViewModel
 import kotlinx.android.synthetic.main.fragment_update_profile.*
 import kotlinx.android.synthetic.main.fragment_update_profile.view.*
 

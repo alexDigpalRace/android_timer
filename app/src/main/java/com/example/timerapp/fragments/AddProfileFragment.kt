@@ -10,8 +10,8 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.timerapp.R
-import com.example.timerapp.database.Profile
-import com.example.timerapp.database.ProfileViewModel
+import com.example.timerapp.model.Profile
+import com.example.timerapp.viewModel.ProfileViewModel
 import kotlinx.android.synthetic.main.fragment_add_profile.*
 import kotlinx.android.synthetic.main.fragment_add_profile.view.*
 

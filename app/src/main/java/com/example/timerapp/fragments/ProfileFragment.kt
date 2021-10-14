@@ -11,7 +11,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.timerapp.ProfileAdapter
 import com.example.timerapp.R
-import com.example.timerapp.database.ProfileViewModel
+import com.example.timerapp.viewModel.ProfileViewModel
 import kotlinx.android.synthetic.main.fragment_profile.view.*
 
 
